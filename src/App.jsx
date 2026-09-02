@@ -13,7 +13,7 @@ import PatientDashboard from './pages/PatientDashboard';
 function App() {
   return (
     <GlobalProvider>
-      <BrowserRouter>
+     <BrowserRouter basename="/PurvArogya">
         <Routes>
           <Route path="/" element={<PortalSelection />} />
           <Route path="/hospital-login" element={<HospitalLogin />} />
