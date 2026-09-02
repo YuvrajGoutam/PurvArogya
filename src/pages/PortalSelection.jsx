@@ -17,7 +17,11 @@ export default function PortalSelection() {
           className="text-center mb-16"
         >
           <div className="flex justify-center mb-4">
-            <img src="/logo.svg" alt="PurvArogya Logo" className="w-20 h-20 drop-shadow-xl" />
+            <img
+              src={`${import.meta.env.BASE_URL}logo.svg`}
+              alt="PurvArogya Logo"
+              className="w-20 h-20 drop-shadow-xl"
+            />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2 tracking-tight">
             PurvArogya
